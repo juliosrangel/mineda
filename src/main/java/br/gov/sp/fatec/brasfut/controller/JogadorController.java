@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.fasterxml.jackson.annotation.JsonView;
 
-//import br.gov.sp.fatec.brasfut.controller.View.FraseCompleta;
 import br.gov.sp.fatec.brasfut.entity.Jogador;
 import br.gov.sp.fatec.brasfut.repository.JogadorRepository;
 import br.gov.sp.fatec.brasfut.service.JogadorService;
