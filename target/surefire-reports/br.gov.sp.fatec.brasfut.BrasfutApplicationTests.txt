@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: br.gov.sp.fatec.brasfut.BrasfutApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 11.168 s <<< FAILURE! - in br.gov.sp.fatec.brasfut.BrasfutApplicationTests
+JogadorServiceAdicionarJogadorTest  Time elapsed: 0.431 s  <<< ERROR!
+org.springframework.security.authentication.AuthenticationCredentialsNotFoundException: An Authentication object was not found in the SecurityContext
+	at br.gov.sp.fatec.brasfut.BrasfutApplicationTests.JogadorServiceAdicionarJogadorTest(BrasfutApplicationTests.java:84)
+
+usuarioServiceNovoUsuarioTest  Time elapsed: 0.023 s  <<< ERROR!
+org.springframework.security.authentication.AuthenticationCredentialsNotFoundException: An Authentication object was not found in the SecurityContext
+	at br.gov.sp.fatec.brasfut.BrasfutApplicationTests.usuarioServiceNovoUsuarioTest(BrasfutApplicationTests.java:76)
+
