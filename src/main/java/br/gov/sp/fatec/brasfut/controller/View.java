@@ -4,7 +4,7 @@ public class View {
 
 	public static class JogadorResumo{}
 	
-	public static class JogadorCompleta extends JogadorResumo{
+	public static class JogadorCompleto extends JogadorResumo{
 		
 	}
 }
