@@ -30,13 +30,13 @@ public class JogadorController {
 	private JogadorRepository jogadorRepo;
 	
 	@PostMapping(value = "/novo")
-	@JsonView(View.JogaodorCompleto.class)
+	@JsonView(View.JogadorCompleto.class)
 	public Jogador cadastrarJogador(@RequestBody JogadorDTO jogador) {
 		return jogadorService.AdicionarJogador(jogador.getNome(), jogador.getDataNasc(), jogador.getUsuario());
 	}
 	
 	@GetMapping(value = "/busca/{time}")
-	@JsonView(View.JogaodorCompleto.class)
+	@JsonView(View.JogadorCompleto.class)
 	public List<Jogador> buscarPorNome(@PathVariable("time") String usuario){
 		return jogadorRepo.findByNomeOrUsuarioEmail(usuario, usuario);
 	}
