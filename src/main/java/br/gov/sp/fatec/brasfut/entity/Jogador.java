@@ -22,20 +22,20 @@ public class Jogador {
 	@Id
 	 @GeneratedValue(strategy=GenerationType.IDENTITY)
 	 @Column(name = "jog_id")
-	 @JsonView(View.FraseCompleta.class)
+	 @JsonView(View.JogadorCompleto.class)
 	 private Long id;
 
 	 @Column(name = "jog_nome", unique=true, length = 100, nullable = false)
-	 @JsonView(View.FraseResumo.class)
+	 @JsonView(View.JogadorResumo.class)
 	 private String nome;
 
 	 @Column(name = "jog_data_nasc", nullable = false)
-	 @JsonView(View.FraseCompleta.class)
+	 @JsonView(View.JogadorCompleto.class)
 	 private Date dataNasc;
 
 	 @ManyToOne(fetch = FetchType.EAGER)
 	 @JoinColumn(name = "usr_time_id")
-	 @JsonView(View.FraseResumo.class)
+	 @JsonView(View.JogadorResumo.class)
 	 private Usuario usuario;
 
 	public Long getId() {
