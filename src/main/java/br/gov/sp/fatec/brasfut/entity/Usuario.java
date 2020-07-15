@@ -28,11 +28,11 @@ public class Usuario {
 	private Long id;
 	
 	@Column(name = "usr_nome", unique=true, length = 20, nullable = false)
-	@JsonView(View.FraseCompleta.class)
+	@JsonView(View.JogadorCompleto.class)
 	private String nome;
 
 	@Column(name = "usr_email", unique=true, length = 100, nullable = false)
-	@JsonView(View.FraseCompleta.class)
+	@JsonView(View.JogadorCompleto.class)
 	private String email;
 
 	@Column(name = "usr_senha", length = 100, nullable = false)
