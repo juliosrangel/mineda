@@ -1,5 +1,10 @@
 create schema brasfut;
+
+create user 'user'@'localhost' indentified by '123456';
+grant select, insert, delete, update on brasfut.* to user@'localhost';
+
 use brasfut;
+
 create table usr_usuario (
 usr_id bigint unsigned not null auto_increment,
 usr_nome varchar(20) not null,
@@ -11,10 +16,7 @@ unique key uni_usuario_email (usr_email)
 );
 
 use brasfut;
-INSERT INTO usr_usuario VALUES(0,"São Paulo","saopaulo@email.com","senha");
-
-INSERT INTO usr_usuario VALUES(0,"Corinthians","corinthians@email.com","maloqueiro");
-
+INSERT INTO usr_usuario VALUES(0,"king","king@email.com","$2a$10$AnZLEgRTUP.F.KIxs/Xco.aHnRATcvDa9e.BFXSzhr2tlwEBDbSxq");
 
 create table aut_autorizacao (
 aut_id bigint unsigned not null auto_increment,
@@ -23,8 +25,7 @@ primary key (aut_id),
 unique key uni_aut_nome (aut_nome)
 );
 
-INSERT INTO aut_autorizacao VALUES(1,"adm");
-
+INSERT INTO aut_autorizacao (aut_nome) VALUES('ROLE_ADMIN');
 
 create table uau_usuario_autorizacao (
 usr_id bigint unsigned not null,
@@ -38,7 +39,11 @@ references aut_autorizacao (aut_id)
 on delete restrict on update cascade
 );
 
-INSERT INTO uau_usuario_autorizacao VALUES(1,1);
+INSERT INTO uau_usuario_autorizacao (usr_id,aut_id) 
+    select usr_id,aut_id 
+        from usr_usuario,aut_autorizacao
+          where usr_nome = 'king' 
+          and aut_nome = 'ROLE_ADMIN';
 
 create table jog_jogador (
 jog_id bigint unsigned not null auto_increment,
