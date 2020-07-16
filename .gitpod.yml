@@ -1,5 +1,4 @@
-ports:
-  - port: 8080
-tasks:
-  - init: mysql < DDL.sql
 image: gitpod/workspace-mysql
+
+tasks:
+  - init: npm install && npm run build && ./mvnw install -DskipTests=false
