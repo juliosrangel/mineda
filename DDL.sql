@@ -1,7 +1,7 @@
 create schema brasfut;
 
-create user 'user'@'localhost' indentified by '123456';
-grant select, insert, delete, update on brasfut.* to user@'localhost';
+create user 'user'@'localhost' identified by 'pass123';
+grant select, insert, delete, update on frases.* to user@'localhost';
 
 use brasfut;
 
