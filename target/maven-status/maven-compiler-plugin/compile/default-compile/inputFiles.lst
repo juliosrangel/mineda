@@ -1,20 +1,20 @@
-C:\Users\Julio Rangel\Documents\Fatec\Mineda\Brasfoot-master\Brasfut\brasfut\src\main\java\br\gov\sp\fatec\brasfut\controller\UsuarioDTO.java
-C:\Users\Julio Rangel\Documents\Fatec\Mineda\Brasfoot-master\Brasfut\brasfut\src\main\java\br\gov\sp\fatec\brasfut\entity\Usuario.java
-C:\Users\Julio Rangel\Documents\Fatec\Mineda\Brasfoot-master\Brasfut\brasfut\src\main\java\br\gov\sp\fatec\brasfut\controller\JogadorDTO.java
-C:\Users\Julio Rangel\Documents\Fatec\Mineda\Brasfoot-master\Brasfut\brasfut\src\main\java\br\gov\sp\fatec\brasfut\controller\JogadorController.java
-C:\Users\Julio Rangel\Documents\Fatec\Mineda\Brasfoot-master\Brasfut\brasfut\src\main\java\br\gov\sp\fatec\brasfut\repository\AutorizacaoRepository.java
-C:\Users\Julio Rangel\Documents\Fatec\Mineda\Brasfoot-master\Brasfut\brasfut\src\main\java\br\gov\sp\fatec\brasfut\security\JwtAuthenticationFilter.java
-C:\Users\Julio Rangel\Documents\Fatec\Mineda\Brasfoot-master\Brasfut\brasfut\src\main\java\br\gov\sp\fatec\brasfut\BrasfutApplication.java
-C:\Users\Julio Rangel\Documents\Fatec\Mineda\Brasfoot-master\Brasfut\brasfut\src\main\java\br\gov\sp\fatec\brasfut\controller\View.java
-C:\Users\Julio Rangel\Documents\Fatec\Mineda\Brasfoot-master\Brasfut\brasfut\src\main\java\br\gov\sp\fatec\brasfut\repository\JogadorRepository.java
-C:\Users\Julio Rangel\Documents\Fatec\Mineda\Brasfoot-master\Brasfut\brasfut\src\main\java\br\gov\sp\fatec\brasfut\repository\UsuarioRepository.java
-C:\Users\Julio Rangel\Documents\Fatec\Mineda\Brasfoot-master\Brasfut\brasfut\src\main\java\br\gov\sp\fatec\brasfut\security\JwtUtils.java
-C:\Users\Julio Rangel\Documents\Fatec\Mineda\Brasfoot-master\Brasfut\brasfut\src\main\java\br\gov\sp\fatec\brasfut\service\JogadorService.java
-C:\Users\Julio Rangel\Documents\Fatec\Mineda\Brasfoot-master\Brasfut\brasfut\src\main\java\br\gov\sp\fatec\brasfut\service\UsuarioService.java
-C:\Users\Julio Rangel\Documents\Fatec\Mineda\Brasfoot-master\Brasfut\brasfut\src\main\java\br\gov\sp\fatec\brasfut\service\UsuarioServiceImpl.java
-C:\Users\Julio Rangel\Documents\Fatec\Mineda\Brasfoot-master\Brasfut\brasfut\src\main\java\br\gov\sp\fatec\brasfut\security\SecurityConfiguration.java
-C:\Users\Julio Rangel\Documents\Fatec\Mineda\Brasfoot-master\Brasfut\brasfut\src\main\java\br\gov\sp\fatec\brasfut\controller\UsuarioController.java
-C:\Users\Julio Rangel\Documents\Fatec\Mineda\Brasfoot-master\Brasfut\brasfut\src\main\java\br\gov\sp\fatec\brasfut\entity\Jogador.java
-C:\Users\Julio Rangel\Documents\Fatec\Mineda\Brasfoot-master\Brasfut\brasfut\src\main\java\br\gov\sp\fatec\brasfut\service\JogadorServiceImpl.java
-C:\Users\Julio Rangel\Documents\Fatec\Mineda\Brasfoot-master\Brasfut\brasfut\src\main\java\br\gov\sp\fatec\brasfut\entity\Autorizacao.java
-C:\Users\Julio Rangel\Documents\Fatec\Mineda\Brasfoot-master\Brasfut\brasfut\src\main\java\br\gov\sp\fatec\brasfut\controller\LoginController.java
+/workspace/mineda/src/main/java/br/gov/sp/fatec/brasfut/controller/LoginController.java
+/workspace/mineda/src/main/java/br/gov/sp/fatec/brasfut/repository/UsuarioRepository.java
+/workspace/mineda/src/main/java/br/gov/sp/fatec/brasfut/repository/AutorizacaoRepository.java
+/workspace/mineda/src/main/java/br/gov/sp/fatec/brasfut/entity/Jogador.java
+/workspace/mineda/src/main/java/br/gov/sp/fatec/brasfut/service/UsuarioServiceImpl.java
+/workspace/mineda/src/main/java/br/gov/sp/fatec/brasfut/security/JwtUtils.java
+/workspace/mineda/src/main/java/br/gov/sp/fatec/brasfut/controller/JogadorDTO.java
+/workspace/mineda/src/main/java/br/gov/sp/fatec/brasfut/controller/JogadorController.java
+/workspace/mineda/src/main/java/br/gov/sp/fatec/brasfut/controller/UsuarioController.java
+/workspace/mineda/src/main/java/br/gov/sp/fatec/brasfut/BrasfutApplication.java
+/workspace/mineda/src/main/java/br/gov/sp/fatec/brasfut/service/JogadorService.java
+/workspace/mineda/src/main/java/br/gov/sp/fatec/brasfut/entity/Usuario.java
+/workspace/mineda/src/main/java/br/gov/sp/fatec/brasfut/service/JogadorServiceImpl.java
+/workspace/mineda/src/main/java/br/gov/sp/fatec/brasfut/repository/JogadorRepository.java
+/workspace/mineda/src/main/java/br/gov/sp/fatec/brasfut/security/JwtAuthenticationFilter.java
+/workspace/mineda/src/main/java/br/gov/sp/fatec/brasfut/controller/View.java
+/workspace/mineda/src/main/java/br/gov/sp/fatec/brasfut/entity/Autorizacao.java
+/workspace/mineda/src/main/java/br/gov/sp/fatec/brasfut/service/UsuarioService.java
+/workspace/mineda/src/main/java/br/gov/sp/fatec/brasfut/security/SecurityConfiguration.java
+/workspace/mineda/src/main/java/br/gov/sp/fatec/brasfut/controller/UsuarioDTO.java
